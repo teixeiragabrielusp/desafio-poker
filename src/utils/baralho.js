@@ -4,12 +4,9 @@ function baralhoPoker() {
     let cartas = ['2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A']; //T = 10, J = Valete, Q = Dama, K = Rei
     let baralho = [];
 
-    let naipesLen = naipes.length;
-    let cartasLen = cartas.length;
-
     //Define o baralho (carta + naipe)
-    for (let i = 0; i < naipesLen; i++) {
-        for (let j = 0; j < cartasLen; j++) {
+    for (let i = 0; i < naipes.length; i++) {
+        for (let j = 0; j < cartas.length; j++) {
             baralho.push(cartas[j] + naipes[i]);
         }
     }

@@ -1,1 +1,0 @@
-const baralho = require('./baralho');
