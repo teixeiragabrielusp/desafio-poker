@@ -1,6 +1,6 @@
 function baralhoPoker() {
 
-    let naipes = ['p', 'c', 'o', 'e']; //p = paus; c = copas; o = ouros; e = espada
+    let naipes = ['paus', 'copas', 'ouro', 'espada']; //p = paus; c = copas; o = ouros; e = espada
     let cartas = ['2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A']; //T = 10, J = Valete, Q = Dama, K = Rei
     let baralho = [];
 
@@ -24,7 +24,6 @@ function baralhoPoker() {
         baralho[randomIndex] = temporaryValue;
     }
 
-    console.log(baralho);
     return baralho;
 
 }
